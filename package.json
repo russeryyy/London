@@ -21,16 +21,11 @@
         "preship": "yarn test",
         "ship": "STATUS=$(git status --porcelain); echo $STATUS; if [ -z \"$STATUS\" ]; then yarn version && git push --follow-tags; fi"
     },
-    "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
-        "url": "https://ghost.org"
-    },
     "gpm": {
         "type": "theme",
         "categories": [
             "Minimal",
-            "Magazine"
+            "Modern"
         ]
     },
     "keywords": [
@@ -40,10 +35,9 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/TryGhost/London.git"
+        "url": "https://github.com/russeryyy/London.git"
     },
-    "bugs": "https://github.com/TryGhost/London/issues",
-    "contributors": "https://github.com/TryGhost/London/graphs/contributors",
+    "bugs": "https://github.com/russeryyy/London/issues",
     "browserslist": [
         "defaults"
     ],
